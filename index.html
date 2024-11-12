@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шлемы виртуальной реальности</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="scripts.js"></script>
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="background.mp4" type="video/mp4">
+    </video>
+    <header>
+		<h1 class="welcome-title">Добро пожаловать в мир VR</h1>
+        <nav>
+            <ul>
+                <li class="welcome-title"><a href="index.html">Главная</a></li>
+                <div class="welcome-title">
+					<li class="dropdown">
+						<a href="#">Обзоры</a>
+						<ul class="dropdown-menu">
+						  <li><a href="quest3.html">Oculus Quest 3</a></li>
+						  <li><a href="quest2.html">Oculus Quest 2</a></li>
+						  <li><a href="questpro.html">Meta Quest Pro</a></li>
+						  <li><a href="pico4.html">Pico 4</a></li>
+						  <li><a href="neo3.html">Pico Neo 3</a></li>
+						  <li><a href="vivepro2.html">HTC Vive Pro 2</a></li>
+						</ul>
+					</li>
+				</div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="reviews">
+		<h2 class="welcome-title">Выбери понравившейся VR-шлем</h2>
+			<div class="vr-headsets">
+				
+				<article>
+					<a href="quest3.html">
+						<h3>Oculus Quest 3</h3>
+						<img src="quest3.png" alt="Oculus Quest 3">
+						<p>Автономный VR-шлем, совмещающий в себе базовые функции вкупе с самыми передовыми технологиями. Великолепный вариант как для новичков, так и для опытных пользователей.</p>
+					</a>
+				</article>
+
+				<article>
+					<a href="quest2.html">
+						<h3>Oculus Quest 2</h3>
+						<img src="quest2.png" alt="Oculus Quest 2">
+						<p>Отличный вариант для тех, кто хочет доступный и простой в использовании VR-шлем без серьезных трат – подойдет для первого знакомства с VR-оборудованием.</p>
+					</a>
+				</article>
+				
+				<article>
+					<a href="questpro.html">
+						<h3>Meta Quest Pro</h3>
+						<img src="questpro.png" alt="Meta Quest Pro">
+						<p>Для тех, чья профессиональная деятельность не обходится без устройств подобного типа.</p>
+					</a>
+				</article>
+				
+				<article>
+					<a href="pico4.html">
+						<h3>Pico 4</h3>
+						<img src="pico4.png" alt="Pico 4">
+						<p>Шлем, который стоит своих денег. Если у вас не хватает бюджета на Quest 3, то Pico 4 станет отличной альтернативой.</p>
+					</a>
+				</article>
+
+				<article>
+					<a href="neo3.html">
+						<h3>Pico Neo 3</h3>
+						<img src="neo3.png" alt="Pico Neo 3">
+						<p>Доступная альтернатива Oculus Quest 2 с высоким разрешением дисплея.</p>
+					</a>
+				</article>
+
+				<article>
+					<a href="vivepro2.html">
+						<h3>HTC Vive Pro 2</h3>
+						<img src="vivepro2.png" alt="HTC Vive Pro 2">
+						<p>Лучший выбор для пользователей ПК, которые хотят получить максимально реалистичный VR-опыт.</p>
+					</a>
+				</article>
+			</div>
+    </section>
+	
+	<section class="comparison">
+        <h2>Сравнительная таблица VR-шлемов</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Шлем</th>
+                    <th>Разрешение</th>
+                    <th>Частота кадров</th>
+                    <th>Технология экрана</th>
+                    <th>Емкость аккумулятора</th>
+                    <th>Процессор</th>
+					<th>Объем оперативной памяти</th>
+					<th>Объем встроенной памяти</th>
+					<th>Операционная система</th>
+					<th>Угол обзора</th>
+					<th>Вес</th>
+					<th>Цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Meta Quest 3</td>
+                    <td>4128 x 2208</td>
+                    <td>120 Гц</td>
+                    <td>LCD</td>
+                    <td>8000 мАч</td>
+					<td>Snapdragon XR2 Gen 2 (4нм)</td>
+                    <td>8 Гб</td>
+					<td>128/512 Гб</td>
+					<td>Android 10</td>
+					<td>110°</td>
+					<td>515г</td>
+					<td>~61900p</td>
+                </tr>
+                <tr>
+                    <td>Oculus Quest 2</td>
+                    <td>3664 x 1920</td>
+                    <td>60/72/90 Гц</td>
+                    <td>LCD</td>
+                    <td>3710 мАч</td>
+                    <td>Snapdragon XR2 Gen 1 (7нм)</td>
+					<td>6 Гб</td>
+					<td>64/128/256 Гб</td>
+					<td>Android 10</td>
+					<td>90°</td>
+					<td>503г</td>
+					<td>~32900р</td>
+                </tr>
+                <tr>
+                    <td>Oculus Quest Pro</td>
+                    <td>3600 x 1920</td>
+                    <td>72/90 Гц</td>
+                    <td>QLED</td>
+                    <td>5000 мАч</td>
+                    <td>Snapdragon XR2+ (Plus) Gen 1</td>
+					<td>12 Гб</td>
+					<td>256 Гб</td>
+					<td>Android 10</td>
+					<td>106°</td>
+					<td>722г</td>
+					<td>~110000р</td>
+                </tr>
+                <tr>
+                    <td>Pico 4</td>
+                    <td>4320 x 2160</td>
+                    <td>72/90 Гц</td>
+                    <td>LCD</td>
+                    <td>5300 мАч</td>
+                    <td>Snapdragon XR2 Gen 1 (7нм)</td>
+					<td>8 Гб</td>
+					<td>128/256/512 Гб</td>
+					<td>PICO OS 5.0</td>
+					<td>105°</td>
+					<td>294г</td>
+					<td>~42900р</td>
+                </tr>
+                <tr>
+                    <td>Pico 3 Neo</td>
+                    <td>3664 x 1920</td>
+                    <td>72/90 Гц</td>
+                    <td>LCD</td>
+                    <td>5300 мАч</td>
+                    <td>Snapdragon XR2 Gen 1 (7нм)</td>
+					<td>6 Гб</td>
+					<td>128/256 Гб</td>
+					<td>Android 10</td>
+					<td>98°</td>
+					<td>395г</td>
+					<td>~61000р</td>
+                </tr>
+				<tr>
+                    <td>HTC Vive Pro 2</td>
+                    <td>4128 x 2208</td>
+                    <td>90/120 Гц</td>
+                    <td>QLED</td>
+                    <td>Нет</td>
+                    <td>Нет</td>
+					<td>Нет</td>
+					<td>Нет</td>
+					<td>Нет</td>
+					<td>120°</td>
+					<td>540г</td>
+					<td>~200000р</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+	
+    <footer>
+        <p>2024 © Все права защищены.</p>
+    </footer>
+</body>
+</html>
